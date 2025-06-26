@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(_name_)
 
 @app.route('/')
-def hello();
+def hello():
 return "Hello from jenkins+Docker+GitHub!"
 
 if _name_ == '__main__':
